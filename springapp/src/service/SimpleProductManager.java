@@ -4,6 +4,7 @@ import java.util.List;
 
 import domain.Product;
 
+@SuppressWarnings("serial")
 public class SimpleProductManager implements ProductManager {
 	private List<Product> products;
 	public List<Product> getProducts() {
